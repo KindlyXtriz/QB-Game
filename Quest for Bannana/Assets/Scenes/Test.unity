@@ -174,7 +174,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -2154,6 +2154,7 @@ GameObject:
   - component: {fileID: 4792561396382792122}
   - component: {fileID: 4287365968909831972}
   - component: {fileID: 5654767728316404731}
+  - component: {fileID: 8860239981724514129}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -2161,3 +2162,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8860239981724514129
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860239981724514128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: b84672b29b767f047a826707d6f1797e, type: 3}
